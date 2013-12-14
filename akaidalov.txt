@@ -1,0 +1,58 @@
+Apple_PubSub_Socket_Render=/tmp/launch-9tCU7i/Render
+BASH=/bin/bash
+BASH_ARGC=()
+BASH_ARGV=()
+BASH_LINENO=()
+BASH_SOURCE=()
+BASH_VERSINFO=([0]="3" [1]="2" [2]="51" [3]="1" [4]="release" [5]="x86_64-apple-darwin13")
+BASH_VERSION='3.2.51(1)-release'
+COLUMNS=179
+DIRSTACK=()
+EUID=1777547986
+GROUPS=()
+HISTFILE=/Users/akaydalov/.bash_history
+HISTFILESIZE=500
+HISTSIZE=500
+HOME=/Users/akaydalov
+HOSTNAME=gl-wl-glass.corp.gilt.com
+HOSTTYPE=x86_64
+IFS=$' \t\n'
+LANG=en_US.UTF-8
+LINES=48
+LOGNAME=akaydalov
+MACHTYPE=x86_64-apple-darwin13
+MAILCHECK=60
+OLDPWD=/web2
+OPTERR=1
+OPTIND=1
+OSTYPE=darwin13
+PATH=/web/tools/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin
+PIPESTATUS=([0]="0")
+PPID=10333
+PROMPT_COMMAND='update_terminal_cwd; '
+PS1='\h:\W \u\$ '
+PS2='> '
+PS4='+ '
+PWD=/web2/testrepo
+SECURITYSESSIONID=186a5
+SHELL=/bin/bash
+SHELLOPTS=braceexpand:emacs:hashall:histexpand:history:interactive-comments:monitor
+SHLVL=1
+SSH_AUTH_SOCK=/tmp/launch-z8514X/Listeners
+TERM=xterm-256color
+TERM_PROGRAM=Apple_Terminal
+TERM_PROGRAM_VERSION=326
+TERM_SESSION_ID=7D4E8AC6-AC8F-4432-9C31-B66AA0F2F6AC
+TMPDIR=/var/folders/x7/slnmjlj17pz26l6kvtwgjnhjmz6fpk/T/
+UID=1777547986
+USER=akaydalov
+_=akaidalov
+__CF_USER_TEXT_ENCODING=0x69F33AD2:0:0
+__CHECKFIX1436934=1
+update_terminal_cwd () 
+{ 
+    local SEARCH=' ';
+    local REPLACE='%20';
+    local PWD_URL="file://$HOSTNAME${PWD//$SEARCH/$REPLACE}";
+    printf '\e]7;%s\a' "$PWD_URL"
+}
